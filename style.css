@@ -67,3 +67,13 @@ h1 {
 .whatsapp-button:hover {
     background-color: #1ebc59;
 }
+
+.footer {
+    background-color: #008000 ;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
