@@ -1,6 +1,8 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: url(./prism.svg);
+    background-size:cover;
+    background-attachment:fixed;
     margin: 0;
     padding: 0;
     text-align: center;
