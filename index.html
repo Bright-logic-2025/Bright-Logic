@@ -1,129 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Soft Company Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header with Company Name and Logo -->
+    <header>
+      <div class="company-logo">
+        <img src="cc.jpg" alt="Soft Company Logo" />
+      </div>
+      <h1>GlideSoft.LK</h1>
+    </header>
 
-<head>
-    <meta charset="UTF-8">
-    <title>Alpha Bookstore</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <!-- Vision and Mission Section -->
+    <section class="vision-mission">
+      <div class="vision">
+        <h2>Our Vision</h2>
+        <p>
+          “To simplify communication by providing efficient, user-friendly web
+          and notice management solutions for businesses, schools, and
+          organizations.”
+        </p>
+      </div>
+      <div class="mission">
+        <h2>Our Mission</h2>
+        <p>
+          “To be the leading platform for digital notice and website solutions,
+          helping clients stay connected and informed seamlessly.”
+        </p>
+      </div>
+    </section>
 
-<body>
+    <!-- Search Box -->
+    <section class="search-box">
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="Search demonstration blocks..."
+        onkeyup="filterBlocks()"
+      />
+    </section>
 
-    <!-- Banner Image -->
-    <img src="headimg.jpg" alt="Bookstore Banner" class="banner">
+    <!-- Demonstration Blocks -->
+    <section class="demo-blocks" id="demoBlocks">
+      <div class="demo-block">
+        <img src="demo1.png" alt="Demo 1" />
+        <h3>Demo Project 1</h3>
+        <button onclick="location.href='details1.html'">More Details</button>
+      </div>
+      <div class="demo-block">
+        <img src="demo2.png" alt="Demo 2" />
+        <h3>Demo Project 2</h3>
+        <button onclick="location.href='details2.html'">More Details</button>
+      </div>
+      <div class="demo-block">
+        <img src="demo3.png" alt="Demo 3" />
+        <h3>Demo Project 3</h3>
+        <button onclick="location.href='details3.html'">More Details</button>
+      </div>
+      <!-- Add more demo blocks as needed -->
+    </section>
 
-    <h1>📚 Alpha Bookstore</h1>
-
-    <div class="book-list">
-        <!-- Book 1: The Great Gatsby -->
-        <div class="book-card">
-            <img src="book 1.png" alt=" ">
-            <h2> 13 3rd Term Test Provinceal Papers</h2>
-            <p>2023/2024 term Test
-            ♻️2023 හා 2024 වර්ෂ වලදී පැවැත්වූ පළාත් බොහෝමයක බහුවරණ ප්‍රශ්න පත්තර පිළිතුරු සමඟ මෙහි අන්තර්ගත කර ඇත. 
-
-♻️♻️♻️♻️♻️♻️හොඳින් මුද්‍රණය කර tape binding කර  සකසා ඇත.♻️♻️♻️♻️♻️♻️
-
-සම්පූර්ණ පිටු 134 අන්තර්ගත වෙයි .
-පිළිතුරු පත්‍රයට මෙයට ඇතුළත් කර ඇත
- සෑම ප්‍රශ්න පත්‍රයක් සඳහා PDF විවරණය ලබාදෙයි.
-                  <ul>
-  <li>බස්නාහිර පළාත 2023  /2024</li>
-  <li>මධ්‍යම පළාත   2023/2024</li>
-  <li>ඌව පළාත  2023/2024</li>
-  <li>දකුණ පළාත 2023</li>
-  <li>වයඹ පළාත  2023/2024</li>
-  <li>Royal 2023/2024</li>
-  <li>Rathnavali 2023</li>
-
-</ul>
-                             
-  
-  
-  
-  
-  
-  </p>
-            <p class="price"> RS. 800.00+shipping cost</p>
-            <a class="whatsapp-button"
-                href="https://wa.me/+94766559505?text=Hi, I'm interested in buying '13 3rd Term Test Provinceal Papers'" target="_blank">
-                📞 Order via WhatsApp
-            </a>
-        </div>
-
-        
-<!--         <div class="book-card">
-            <img src="first\book 1.png" alt=" ">
-            <h2> TEST 01.</h2>
-            <p>.</p>
-            <p class="price">Rs. 0.00</p>
-            <a class="whatsapp-button" href="https://wa.me/+94766559505?text=Hi, I'm interested in buying 'this book'"
-                target="_blank">
-                📞 Order via WhatsApp
-            </a>
-        </div>
- -->
-<!--         <div class="book-card">
-            <img src="first\book 1.png" alt=" ">
-            <h2>TEST 02</h2>
-            <p>.</p>
-            <p class="price">Rs. 0.00</p>
-            <a class="whatsapp-button" href="https://wa.me/+94766559505?text=Hi, I'm interested in buying 'this book'"
-                target="_blank">
-                📞 Order via WhatsApp
-            </a>
-        </div>
-
-        <div class="book-card">
-            <img src="first\book 1.png" alt=" ">
-            <h2>TEST 03</h2>
-            <p>.</p>
-            <p class="price">Rs. 0.00</p>
-            <a class="whatsapp-button" href="https://wa.me/+94766559505?text=Hi, I'm interested in buying 'this book'"
-                target="_blank">
-                📞 Order via WhatsApp
-            </a>
-        </div>
-         <div class="book-card">
-            <img src="first\book 1.png" alt=" ">
-            <h2> TEST 04.</h2>
-            <p>.</p>
-            <p class="price">Rs. 0.00</p>
-            <a class="whatsapp-button" href="https://wa.me/+94766559505?text=Hi, I'm interested in buying 'this book'"
-                target="_blank">
-                📞 Order via WhatsApp
-            </a>
-        </div>
-
-        <div class="book-card">
-            <img src="first\book 1.png" alt=" ">
-            <h2>TEST 05</h2>
-            <p>.</p>
-            <p class="price">Rs. 0.00</p>
-            <a class="whatsapp-button" href="https://wa.me/+94766559505?text=Hi, I'm interested in buying 'this book'"
-                target="_blank">
-                📞 Order via WhatsApp
-            </a>
-        </div>
-
-        <div class="book-card">
-            <img src="first\book 1.png" alt="">
-            <h2>TEST 06</h2>
-            <p>.</p>
-            <p class="price">Rs. 0.00</p>
-            <a class="whatsapp-button" href="https://wa.me/+94766559505?text=Hi, I'm interested in buying 'this book'"
-                target="_blank">
-                📞 Order via WhatsApp
-            </a>
-        </div>
-
-
-
-        <!-- Add more books as needed -->
-<!--     </div>  -->
-     <footer class="footer">
-        <p>© 2025 ALPHA BOOK web servise team. All rights reserved.</p>
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2025 Soft Company. All Rights Reserved.</p>
     </footer>
-</body>
 
+    <script src="script.js"></script>
+  </body>
 </html>
