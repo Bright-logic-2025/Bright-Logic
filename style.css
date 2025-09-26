@@ -22,6 +22,26 @@ header img {
     border-radius: 50%; /* Circular logo */
     border: 2px solid white;
 }
+/*TOP bar home button */
+ .top-bar {
+      text-align: right;
+      padding: 15px;
+      
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .top-bar button {
+      padding: 10px 15px;
+      background: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .top-bar button:hover {
+      background: #0056b3;
+    }
 
 /* Vision & Mission */
 .vision-mission {
@@ -76,7 +96,7 @@ header img {
     border-radius: 10px;
 }
 
-.demo-block button {
+.button1, .demo-block button {
     margin-top: 10px;
     padding: 10px 15px;
     border: none;
@@ -85,9 +105,18 @@ header img {
     color: white;
     cursor: pointer;
 }
+.button2{ margin-top: 10px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #48e46a;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    
+}
 
-.demo-block button:hover {
-    background-color: #3498db;
+.demo-block button:hover  {
+    background-color: #325167;
 }
 
 /* Footer */
@@ -115,3 +144,5 @@ footer {
     .demo-blocks { flex-direction: column; align-items: center; }
     .demo-block { width: 90%; }
 }
+
+ 
