@@ -1,12 +1,12 @@
 // Rainbow background colors array
 const rainbowColors = [
-    "linear-gradient(45deg, #cb3ce7ff, #55c1dcff)",
-    "linear-gradient(45deg, #3498db, #1abc9c)",
-    "linear-gradient(45deg, #9b59b6, #cb59acff)",
-    "linear-gradient(45deg, #2ecc71, #7293d0ff)",
-    "linear-gradient(45deg, #e84393, #6c5ce7)",
-     "linear-gradient(45deg, #519f72ff, #8b33baff)",
-    "linear-gradient(45deg, #e84393, #6c5ce7)"
+    "linear-gradient(45deg, #dbbee2ff, #dbecf1ff)",
+    "linear-gradient(45deg, #6adc9d70, #7ac1b2ff)",
+    "linear-gradient(45deg, #f0fca2ff, #cb59acff)",
+    "linear-gradient(45deg, #7cd09fff, #7293d0ff)",
+    "linear-gradient(45deg, #e16c6cff, #d5a8b3ff)",
+     "linear-gradient(45deg, #537662ff, #7bcdb7ff)",
+    "linear-gradient(45deg, #947fe5ff, #6c5ce7)"
 ];
 
 let colorIndex = 0;
