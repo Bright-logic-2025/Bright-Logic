@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bright Logic</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="top-bar">
+      <button onclick="window.location.href='index.html'">Home</button>
+    </div>
+    <!-- Vision and Mission Section -->
+    <section class="vision-mission">
+      <div class="vision">
+        <h2>Choose Template</h2>
+        <p>
+          “Please select your preferred website template from the options
+          provided below.”
+        </p>
+      </div>
+    </section>
+
+    <!-- Search Box -->
+    <section class="search-box">
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="Search your LMS Template..."
+        onkeyup="filterBlocks()"
+      />
+    </section>
+
+    <!-- Demonstration Blocks -->
+    <section class="demo-blocks" id="demoBlocks">
+      <div class="demo-block">
+        <img src="images/lms_img1.png" alt="Img 1" />
+        <h3>Learning Management System 1</h3>
+        <button class="button1" onclick="location.href='details1.html'">
+          More Details
+        </button>
+        <button class="button2" onclick="location.href='details1.html'">
+          Sample website
+        </button>
+      </div>
+      <div class="demo-block">
+        <img src="images/lms_img2.png" alt="Img 1" />
+        <h3>Learning Management System 2</h3>
+        <button class="button1" onclick="location.href='details1.html'">
+          More Details
+        </button>
+        <button class="button2" onclick="location.href='details1.html'">
+          Sample website
+        </button>
+      </div>
+      <div class="demo-block">
+        <img src="images/lms_img3.png" alt="Img 1" />
+        <h3>Learning Management System 3</h3>
+        <button class="button1" onclick="location.href='details1.html'">
+          More Details
+        </button>
+        <button class="button2" onclick="location.href='details1.html'">
+          Sample website
+        </button>
+      </div>
+
+      <!-- Add more demo blocks as needed -->
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2025 Bright Logic. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
